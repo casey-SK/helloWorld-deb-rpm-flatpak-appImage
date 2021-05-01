@@ -1,0 +1,12 @@
+app-id: ca.hexiga.hello
+runtime: org.freedesktop.Platform
+runtime-version: '19.08'
+sdk: org.freedesktop.Sdk
+modules:
+  - name: helloWorld
+    buildsystem: simple
+    build-commands:
+      - install -D helloWorld /app/bin/hello
+    sources:
+      - type: file
+        path: ../../src/helloWorld
