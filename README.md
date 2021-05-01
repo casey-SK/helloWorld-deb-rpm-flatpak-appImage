@@ -11,6 +11,8 @@ project seems to get really confusing.
 
 ### Dependencies:
 
+**Below are the system dependencies you will need to build each package type:**
+
 For building `.DEB` files, you'll need the following installed on your
 debian-based system (which you'll very likely already have):
 
@@ -40,3 +42,10 @@ debian-based system:
 ```
 sudo apt install mingw-w64
 ```
+
+### Building the Packages
+
+the `scripts` folder contains all of the scripts. If you only wanted a `.deb` file, 
+you would just run the `deb.sh` script. And so on... 
+
+The `ALL.sh` script will build all supported packages.
