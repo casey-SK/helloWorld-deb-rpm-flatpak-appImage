@@ -41,6 +41,7 @@ debian-based system:
 
 ```
 sudo apt install mingw-w64
+sudo apt install wine # for testing
 ```
 
 ### Building the Packages
